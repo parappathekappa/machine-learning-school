@@ -1,0 +1,99 @@
+*.py[cod]
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+nohup.out
+*.rdb
+logfile
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Unit tests / coverage reports
+###############################
+.coverage
+.tox
+nosetests.xml
+htmlcov
+
+# Installer logs
+###############################
+pip-log.txt
+
+# Config files
+###############################
+.env
+.env.rtf
+
+# Database dumps
+###############################
+*.dump
+
+# Node packages
+###############################
+/node_modules
+node_modules
+package-lock.json
+
+# SSL Certificates
+###############################
+.pem
+.key
+
+# Virtualenv
+###############################
+env
+
+# local dev
+###############################
+.bash_history
+.cache/
+.sudo_as_admin_successful
+.ipython
+.local
+.vagrant
+/.vscode
+/.idea
+/.editorconfig
+tmp
+
+# staticfiles + media
+###############################
+staticfiles/*
+media/*
+
+# Any large data sets
+data/
+.csv
